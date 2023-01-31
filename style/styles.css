@@ -1,0 +1,979 @@
+@font-face {
+    src: url(/font/NotoSerifKhojki-VariableFont_wght.ttf);
+    font-family: fancy;
+}
+
+body {
+    background-image: url(/assets/PageBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: aqua;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 600px;
+    width: 1000px;
+    margin: 2rem 0rem 0rem 15rem;
+    border-radius: 30px;
+    box-shadow: 0.60em 0.60em 0.2em grey;
+    position: fixed;
+}
+
+.infoMob {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 600px;
+    width: 320px;
+    margin: 3rem 0rem 0rem 3rem;
+    border-radius: 30px;
+    box-shadow: 0.60em 0.60em 0.2em grey;
+    position: fixed;
+}
+
+.Name {
+    margin: 0rem 0rem 0rem 12rem;
+    text-decoration: underline;
+}
+
+.NameMob {
+    margin: 1rem 0rem 0rem 1rem;
+    text-decoration: underline;
+    font-size: 17px;
+    position: fixed;
+    color: white;
+}
+
+.homeText {
+    position: fixed;
+    margin: 2rem 24rem 0rem 5rem;
+}
+
+.homeTextTMob {
+    position: fixed;
+    margin: 3rem 4rem 0rem 1rem;
+    font-size: 12px;
+    color: white;
+}
+
+.moreHomeText {
+    position: fixed;
+    margin: 15rem 45rem 0rem 5rem;
+}
+
+.moreHomeTextMob {
+    position: fixed;
+    margin: 13.5rem 4rem 0rem 1rem;
+    font-size: 12px;
+    color: white;
+}
+
+.trainingTitle {
+    position: fixed;
+    margin: 2rem 24rem 0rem 5rem;
+}
+
+.trainingInfo {
+    position: fixed;
+    margin: 6rem 24rem 0rem 3rem;
+}
+
+.muscle1 {
+    position: fixed;
+    margin: 10rem 24rem 0rem 2rem;
+}
+
+.exercise1 {
+    position: fixed;
+    margin: 12rem 24rem 0rem 2rem;
+}
+
+.muscle2 {
+    position: fixed;
+    margin: 15.5rem 24rem 0rem 2rem;
+}
+
+.exercise2 {
+    position: fixed;
+    margin: 17.5rem 50rem 0rem 2rem;
+}
+
+.muscle3 {
+    position: fixed;
+    margin: 22.5rem 24rem 0rem 2rem;
+}
+
+.exercise3 {
+    position: fixed;
+    margin: 24.5rem 50rem 0rem 2rem;
+}
+
+.muscle4 {
+    position: fixed;
+    margin: 15.5rem 24rem 0rem 50rem;
+}
+
+.exercise4 {
+    position: fixed;
+    margin: 17.5rem 18rem 0rem 43rem;
+}
+
+.exercise4b {
+    position: fixed;
+    margin: 21.5rem 20.2rem 0rem 45.5rem;
+}
+
+.terrencePicHome {
+    background-image: url(/assets/Terrerencehomepage.png);
+    margin: 8.8rem 0rem 0rem 32rem;
+    height: 520px;
+    width: 480px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.terrencePicWhy {
+    background-image: url(/assets/Terrance.png);
+    margin: 5rem 0rem 0rem 45rem;
+    height: 520px;
+    width: 480px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.terrencePicAccomp {
+    background-image: url(/assets/Screenshot_20230131_105114-removebg-preview.png);
+    margin: 5rem 0rem 0rem 18rem;
+    height: 520px;
+    width: 480px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.terrencePicTrain {
+    background-image: url(/assets/TerrTrain.png);
+    margin: 13.4rem 0rem 0rem 13rem;
+    height: 388px;
+    width: 516px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.fancy {
+    font-family: fancy;
+}
+
+.whyTextOne {
+    position: fixed;
+    margin: 2rem 24rem 0rem 5rem;
+}
+
+.whyTextTwo {
+    position: fixed;
+    margin: 12rem 35rem 0rem 5rem;
+}
+
+.whyTextThree {
+    position: fixed;
+    margin: 17rem 40rem 0rem 5rem;
+}
+
+.whyTextFour {
+    position: fixed;
+    margin: 26rem 45rem 0rem 5rem;
+}
+
+.accompTitle {
+    position: fixed;
+    margin: 2rem 0rem 0rem 20rem;
+}
+
+
+.a2014Accomp {
+    position: fixed;
+    margin: 8rem 0rem 0rem 10rem;
+}
+
+.pMove {
+    position: fixed;
+    margin: 10.5rem 60rem 0rem 6rem;
+}
+
+.pMoveTwo {
+    position: fixed;
+    margin: 14.5rem 60rem 0rem 6rem;
+}
+
+
+.a2016Accomp {
+    position: fixed;
+    margin: 17rem 0rem 0rem 10rem;
+}
+
+.a2016p {
+    position: fixed;
+    margin: 19.5rem 60rem 0rem 6rem;
+}
+
+.a2016p2 {
+    position: fixed;
+    margin: 21.5rem 60rem 0rem 6rem;
+}
+
+.a2016p3 {
+    position: fixed;
+    margin: 23.5rem 60rem 0rem 6rem;
+}
+
+.a2016p4 {
+    position: fixed;
+    margin: 25.5rem 60rem 0rem 6rem;
+}
+
+.a2016p5 {
+    position: fixed;
+    margin: 27.5rem 60rem 0rem 6rem;
+}
+
+
+.a2017Accomp {
+    position: fixed;
+    margin: 30rem 0rem 0rem 10rem;
+}
+
+.a2017p {
+    position: fixed;
+    margin: 32.5rem 60rem 0rem 6rem;
+}
+
+
+.a2018Accomp {
+    position: fixed;
+    margin: 8rem 0rem 0rem 48rem;
+}
+
+.a2018p {
+    position: fixed;
+    margin: 10.5rem 18rem 0rem 42.5rem;
+}
+
+.a2018p2 {
+    position: fixed;
+    margin: 12.5rem 18rem 0rem 42.5rem;
+}
+
+
+.a2019Accomp {
+    position: fixed;
+    margin: 15rem 0rem 0rem 48rem;
+}
+
+.a2019p {
+    position: fixed;
+    margin: 17.5rem 18rem 0rem 42.5rem;
+}
+
+
+.a2020Accomp {
+    position: fixed;
+    margin: 20rem 0rem 0rem 48rem;
+}
+
+.a2020p {
+    position: fixed;
+    margin: 22.5rem 18rem 0rem 42.5rem;
+}
+
+.a2020p2 {
+    position: fixed;
+    margin: 25rem 18rem 0rem 42.5rem;
+}
+
+
+.a2021Accomp {
+    position: fixed;
+    margin: 27.5rem 0rem 0rem 48rem;
+}
+
+.a2021p {
+    position: fixed;
+    margin: 30rem 18rem 0rem 42.5rem;
+}
+
+.a2021p2 {
+    position: fixed;
+    margin: 32.5rem 18rem 0rem 42.5rem;
+}
+
+@media screen and (max-width: 769px) and (min-width: 426px) {
+    body {
+        background-image: url(/assets/PageBG.jpg);
+        background-repeat: repeat-y;
+    }
+
+    .info {
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 300px;
+        width: 600px;
+        margin: 3rem 0rem 0rem 5rem;
+        border-radius: 30px;
+        box-shadow: 0.60em 0.60em 0.2em grey;
+        position: fixed;
+    }
+
+    .terrencePicHome {
+        background-image: url(/assets/My_project-removebg-preview.png);
+        margin: 8.8rem 0rem 0rem 32rem;
+        height: 200px;
+        width: 480px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+    .Name {
+        margin: 0rem 0rem 0rem 1rem;
+        text-decoration: underline;
+        font-size: 30px;
+        position: fixed;
+    }
+
+    .homeText {
+        position: fixed;
+        margin: 3rem 6.5rem 0rem 1rem;
+        font-size: 12px;
+    }
+
+    .moreHomeText {
+        position: fixed;
+        margin: 9rem 15rem 0rem 1rem;
+        font-size: 12px;
+    }
+
+    .terrencePicHome {
+        background-image: url(/assets/My_project-removebg-preview.png);
+        margin: 8.2rem 0rem 0rem 25rem;
+        height: 200px;
+        width: 480px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+    .trainingTitle {
+        position: fixed;
+        margin: 0.5rem 0rem 0rem 3rem;
+    }
+
+    .trainingInfo {
+        position: fixed;
+        margin: 3rem 0rem 0rem 2rem;
+    }
+
+    .muscle1 {
+        position: fixed;
+        margin: 6rem 0rem 0rem 1rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .exercise1 {
+        position: fixed;
+        margin: 7.5rem 4rem 0rem 1rem;
+        font-size: smaller;
+    }
+
+    .muscle2 {
+        position: fixed;
+        margin: 11rem 0rem 0rem 1rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .exercise2 {
+        position: fixed;
+        margin: 12rem 4rem 0rem 1rem;
+        font-size: smaller;
+    }
+
+    .muscle3 {
+        position: fixed;
+        margin: 15rem 0rem 0rem 1rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .exercise3 {
+        position: fixed;
+        margin: 16rem 4rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .terrencePicTrain {
+        background-image: url(/assets/TerrTrain.png);
+        margin: 13.4rem 0rem 0rem 0rem;
+        height: 388px;
+        width: 516px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+
+    .accompTitle {
+        position: fixed;
+        margin: 0.5rem 0rem 0rem 10rem;
+    }
+
+    .a2014Accomp {
+        position: fixed;
+        margin: 3rem 0rem 0rem 4rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .pMove {
+        position: fixed;
+        margin: 4rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .pMoveTwo {
+        position: fixed;
+        margin: 7rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+
+    .a2016Accomp {
+        position: fixed;
+        margin: 9rem 0rem 0rem 4rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2016p {
+        position: fixed;
+        margin: 10rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .a2016p2 {
+        position: fixed;
+        margin: 11.3rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .a2016p3 {
+        position: fixed;
+        margin: 12.5rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .a2016p4 {
+        position: fixed;
+        margin: 13.8rem 25rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .a2016p5 {
+        position: fixed;
+        margin: 15rem 25rem 0rem 2rem;
+        font-size: smaller;
+        z-index: 1;
+    }
+
+
+    .a2017Accomp {
+        position: fixed;
+        margin: 16rem 0rem 0rem 2rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2017p {
+        position: fixed;
+        margin: 16rem 0rem 0rem 5rem;
+        font-size: smaller;
+        z-index: 1;
+    }
+
+
+    .a2018Accomp {
+        position: fixed;
+        margin: 3rem 0rem 0rem 23rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2018p {
+        position: fixed;
+        margin: 4rem 0rem 0rem 21rem;
+        font-size: smaller;
+    }
+
+    .a2018p2 {
+        position: fixed;
+        margin: 5rem 0rem 0rem 21rem;
+        font-size: smaller;
+    }
+
+
+    .a2019Accomp {
+        position: fixed;
+        margin: 7rem 0rem 0rem 24rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2019p {
+        position: fixed;
+        margin: 8rem 0rem 0rem 23rem;
+        font-size: smaller;
+    }
+
+
+    .a2020Accomp {
+        position: fixed;
+        margin: 10rem 0rem 0rem 25rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2020p {
+        position: fixed;
+        margin: 11rem 0rem 0rem 25rem;
+        font-size: smaller;
+    }
+
+    .a2020p2 {
+        position: fixed;
+        margin: 12rem 0rem 0rem 25rem;
+        font-size: smaller;
+    }
+
+
+    .a2021Accomp {
+        position: fixed;
+        margin: 14rem 0rem 0rem 26rem;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .a2021p {
+        position: fixed;
+        margin: 15rem 0rem 0rem 26rem;
+        font-size: smaller;
+    }
+
+    .a2021p2 {
+        position: fixed;
+        margin: 16rem 0rem 0rem 26rem;
+        font-size: smaller;
+    }
+
+    .terrencePicAccomp {
+        background-image: url(/assets/Screenshot_20230131_105114-removebg-preview.png);
+        margin: 5rem 0rem 0rem 12rem;
+        height: 520px;
+        width: 480px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+    .whyTextOne {
+        position: fixed;
+        margin: 1rem 0rem 0rem 3rem;
+    }
+
+    .whyTextTwo {
+        position: fixed;
+        margin: 3rem 20rem 0rem 2rem;
+        font-size: medium;
+    }
+
+    .whyTextThree {
+        position: fixed;
+        margin: 7rem 10rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .whyTextFour {
+        position: fixed;
+        margin: 13rem 11rem 0rem 2rem;
+        font-size: smaller;
+    }
+
+    .terrencePicWhy {
+        background-image: url(/assets/Terrance.png);
+        margin: 0rem 0rem 0rem 31rem;
+        height: 300px;
+        width: 200px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 426px) and (min-width: 325px) {
+    body {
+        background-image: url(/assets/PageBG.jpg);
+        background-repeat: space;
+        background-color: aqua;
+    }
+
+    .info {
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 500px;
+        width: 300px;
+        margin: 3rem 0rem 0rem 4rem;
+        border-radius: 30px;
+        box-shadow: 0.60em 0.60em 0.2em grey;
+        position: fixed;
+    }
+
+    .terrencePicHome {
+        background-image: url(/assets/My_project-removebg-preview.png);
+        margin: 8.8rem 0rem 0rem 32rem;
+        height: 200px;
+        width: 480px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+    .Name {
+        margin: 0rem 0rem 0rem 1rem;
+        text-decoration: underline;
+        font-size: 17px;
+        position: fixed;
+        color: white;
+    }
+
+    .homeText {
+        position: fixed;
+        margin: 3rem 4rem 0rem 1rem;
+        font-size: 12px;
+        color: white;
+        z-index: 1;
+    }
+
+    .moreHomeText {
+        position: fixed;
+        margin: 14rem 4rem 0rem 1rem;
+        font-size: 12px;
+        color: white;
+    }
+
+    .terrencePicHome {
+        background-image: url(/assets/My_project-removebg-preview.png);
+        margin: 20rem 0rem 0rem 0rem;
+        height: 200px;
+        width: 480px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+    .trainingTitle {
+        position: fixed;
+        margin: 0.5rem 0rem 0rem 3rem;
+        color: white;
+    }
+
+    .trainingInfo {
+        position: fixed;
+        margin: 3rem 0rem 0rem 2rem;
+        color: white;
+    }
+
+    .muscle1 {
+        position: fixed;
+        margin: 6rem 0rem 0rem 1rem;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+    }
+
+    .exercise1 {
+        position: fixed;
+        margin: 7.5rem 4rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+    }
+
+    .muscle2 {
+        position: fixed;
+        margin: 13rem 0rem 0rem 1rem;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+    }
+
+    .exercise2 {
+        position: fixed;
+        margin: 14rem 4rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+    }
+
+    .muscle3 {
+        display: none
+    }
+
+    .exercise3 {
+        display: none
+    }
+
+    .terrencePicTrain {
+        background-image: url(/assets/TerrTrain.png);
+        margin: 13rem 0rem 0rem -12rem;
+        height: 388px;
+        width: 516px;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+    .accompTitle {
+        position: fixed;
+        margin: 0.5rem 0rem 0rem 2rem;
+        color: white;
+
+    }
+
+    .a2014Accomp {
+        position: fixed;
+        margin: 3rem 0rem 0rem 3rem;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .pMove {
+        position: fixed;
+        margin: 4rem 4rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+    .pMoveTwo {
+        position: fixed;
+        margin: 6.5rem 4rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+
+    .a2016Accomp {
+        display: none;
+
+
+    }
+
+    .a2016p {
+        display: none;
+
+    }
+
+    .a2016p2 {
+        display: none;
+
+    }
+
+    .a2016p3 {
+        display: none;
+
+    }
+
+    .a2016p4 {
+        display: none;
+
+    }
+
+    .a2016p5 {
+        display: none;
+
+    }
+
+
+    .a2017Accomp {
+        display: none;
+
+    }
+
+    .a2017p {
+        display: none;
+
+    }
+
+
+    .a2018Accomp {
+        position: fixed;
+        margin: 8rem 0rem 0rem 3rem;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .a2018p {
+        position: fixed;
+        margin: 9rem 0rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+    .a2018p2 {
+        position: fixed;
+        margin: 10rem 0rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+
+    .a2019Accomp {
+        display: none;
+
+    }
+
+    .a2019p {
+        display: none;
+
+    }
+
+
+    .a2020Accomp {
+        display: none;
+
+    }
+
+    .a2020p {
+        display: none;
+
+    }
+
+    .a2020p2 {
+        display: none;
+    }
+
+
+    .a2021Accomp {
+        position: fixed;
+        margin: 12rem 0rem 0rem 3rem;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .a2021p {
+        position: fixed;
+        margin: 13rem 0rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+    .a2021p2 {
+        position: fixed;
+        margin: 14rem 0rem 0rem 1rem;
+        font-size: smaller;
+        color: white;
+
+    }
+
+    .terrencePicAccomp {
+        background-image: url(/assets/Screenshot_20230131_105114-removebg-preview.png);
+        margin: 14.2rem 0rem 0rem 4rem;
+        height: 520px;
+        width: 480px;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+
+
+    .whyTextOne {
+        position: fixed;
+        margin: 1rem 0rem 0rem 3rem;
+        color: white;
+    }
+
+    .whyTextTwo {
+        position: fixed;
+        margin: 3rem 4rem 0rem 1rem;
+        font-size: medium;
+        color: white;
+
+    }
+
+    .whyTextThree {
+        position: fixed;
+        margin: 7rem 4rem 0rem 1rem;
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .whyTextFour {
+        position: fixed;
+        margin: 16rem 4rem 0rem 1rem;
+        font-size: 12px;
+        color: white;
+        z-index: 1;
+    }
+
+    .terrencePicWhy {
+        background-image: url(/assets/Terrance.png);
+        margin: 12rem 0rem 0rem 5rem;
+        height: 300px;
+        width: 200px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navTxt {
+    color: black;
+}
